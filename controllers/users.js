@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const router = express.Router();
 const User = mongoose.model('user')
 const jwt = require('jsonwebtoken');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 router.post('/register',(req,res)=>{
     const today = new Date();
