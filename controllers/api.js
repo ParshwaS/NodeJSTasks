@@ -5,7 +5,7 @@ const jwt = require('jsonwebtoken')
 
 module.exports = function(app,io){
 
-    app.get('/api/lists',(req,res)=>{
+    app.post('/api/lists',(req,res)=>{
         var decoded = jwt.verify(req.headers['authorization'], '@#RTY%$')
         Task.find({
             userId: decoded._id
