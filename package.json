@@ -1,21 +1,29 @@
 {
-  "name": "learning",
+  "name": "tasks",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParshwaS/NodeJSTasks.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ParshwaS/NodeJSTasks/issues"
+  },
+  "homepage": "https://github.com/ParshwaS/NodeJSTasks#readme",
   "dependencies": {
-  	"npm-pre-gyp": "^0.14.0",
+    "bcrypt": "^4.0.1",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "express-handlebars": "^4.0.3",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.9.9",
+    "mongoose": "^5.9.10",
     "nodemon": "^2.0.3",
     "socket.io": "^2.3.0"
   }
