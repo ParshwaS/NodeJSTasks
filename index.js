@@ -21,9 +21,10 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 
-app.use('/api/users',users);
 
 require('./controllers/api')(app,io);
+
+app.use('/api/users',users);
 
 app.use(express.static(path.join(__dirname, 'public')))
 
