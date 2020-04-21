@@ -1,4 +1,4 @@
-# NodeJSTasks
+# NodeJS Tasks App With CRUD and User Authentication
 
 Check out this app live on https://tasks-parshwa.herokuapp.com/ 
 
